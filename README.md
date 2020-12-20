@@ -1,16 +1,15 @@
-### Hi there 👋
+```terraform
+module "oliver" {
+  source = "./massive_legend"
 
-<!--
-**oliverjcollins/oliverjcollins** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  background = "SRE"
+  tools      = ["terraform", "AWS", "k8s, ""docker", "node.js", "golang"]
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  affiliations = [
+    "qutwhitehats.club/", # I founded the QUT Cybersecurity club
+    "pizzaroulette.net/", # Made this at university with @groydis & @jxgrnt
+    "arkoselabs.com/",    # I work here as an SRE
+    "unit421.com"         # Under construction...
+  ]
+}
+```
