@@ -8,7 +8,6 @@ module "oliver" {
   affiliations = [
     "qutwhitehats.club/", # I founded the QUT Cybersecurity club
     "pizzaroulette.net/", # Made this at university with @groydis & @jxgrnt
-    "arkoselabs.com/",    # I work here as an SRE
     "unit421.com"         # Under construction...
   ]
 }
